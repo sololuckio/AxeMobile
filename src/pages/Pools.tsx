@@ -14,7 +14,7 @@ const pools: Pool[] = [
   { id: "solo-ck", name: "Solo CK Pool", description: "Solo mining, 98% block reward", stratumUrl: "solo.ckpool.org", port: 3333, fees: "2%", status: "active" },
   { id: "atlas-pool", name: "AtlasPool", description: "Reliable, performant, globally deployed solo mining", stratumUrl: "solo.atlaspool.io", port: 3333, fees: "0%", status: "active" },
   { id: "letsmine", name: "Letsmine.it", description: "European pool, low latency", stratumUrl: "de1.letsmine.it", port: 3332, fees: "1%", status: "active", password: "diff=auto" },
-  { id: "solo-cat", name: "Solo.cat", description: "Solo mining with instant payouts", stratumUrl: "solo.cat", port: 3333, fees: "1%", status: "active" },
+  { id: "solo-cat", name: "Solo.cat", description: "Solo mining with instant payouts", stratumUrl: "solo.cat", port: 3333, fees: "1%", status: "active" },  { id: "sololuck", name: "SoloLuck", description: "Southeast Asia (Jakarta) — 0% fee, difficulty-1 port for small miners", stratumUrl: "stratum.sololuck.io", port: 3333, fees: "0%", status: "active" },
 ];
 
 const statusIcon = (s: Pool["status"]) => {
